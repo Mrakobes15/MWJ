@@ -16,4 +16,4 @@ numpy
 matplotlib
 stop-words
 wordcloud
-
+nltk

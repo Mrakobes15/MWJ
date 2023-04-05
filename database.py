@@ -38,6 +38,3 @@ finally:
     if (db_connection):
         db_connection.close()
         print("Connection closed.")
-
-
-

@@ -7,6 +7,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from progress.bar import Bar
 
+
+
+
+
 def get_page(page_utl: str):
     request = requests.get(page_utl)
     page = Bs(request.content, 'html.parser')
